@@ -10,6 +10,7 @@ import java.util.Optional;
 
 // 把 class 變成一個 bean = @Controller + @ResponseBody
 @RestController
+@CrossOrigin
 // 將 url 路徑對應到方法上
 @RequestMapping("/api/v1/movies")
 public class MovieController {
